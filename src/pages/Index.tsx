@@ -36,7 +36,7 @@ const courses: Course[] = [
     category: 'Программирование',
     level: 'Начальный',
     duration: '8 недель',
-    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/1a512ce1-4617-47c8-921d-0c8f13b51aec.jpg',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/abd0c902-7576-47b8-b61c-521abfa4333b.jpg',
     lessons: 42,
     students: 1234
   },
@@ -47,7 +47,7 @@ const courses: Course[] = [
     category: 'Дизайн',
     level: 'Начальный',
     duration: '6 недель',
-    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/8e736bdb-2962-4213-ac4b-eda32b835dc3.jpg',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/b905c29d-da34-4399-9f2e-a300054f4a9d.jpg',
     lessons: 28,
     students: 856
   },
@@ -58,7 +58,7 @@ const courses: Course[] = [
     category: 'Программирование',
     level: 'Продвинутый',
     duration: '10 недель',
-    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/1a512ce1-4617-47c8-921d-0c8f13b51aec.jpg',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/abd0c902-7576-47b8-b61c-521abfa4333b.jpg',
     lessons: 56,
     students: 542
   }
@@ -189,7 +189,7 @@ const Index = () => {
               <div className="relative animate-scale-in">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 blur-3xl" />
                 <img 
-                  src="https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/4d12f893-0c02-4bad-9384-8868edc3332f.jpg"
+                  src="https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/9e02426d-42c3-4cc8-b3b7-2086433fb53e.jpg"
                   alt="Education"
                   className="relative rounded-3xl shadow-2xl"
                 />
