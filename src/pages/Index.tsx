@@ -61,6 +61,105 @@ const courses: Course[] = [
     image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
     lessons: 56,
     students: 542
+  },
+  {
+    id: '4',
+    title: 'Python для анализа данных',
+    description: 'Data Science с Python, Pandas и машинное обучение на практике',
+    category: 'Data Science',
+    level: 'Средний',
+    duration: '12 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
+    lessons: 68,
+    students: 2150
+  },
+  {
+    id: '5',
+    title: 'Цифровой маркетинг 2024',
+    description: 'SEO, SMM, таргетированная реклама и аналитика для современного маркетинга',
+    category: 'Маркетинг',
+    level: 'Начальный',
+    duration: '6 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0283e56f-0b79-40cc-8c0c-e223ad74a8a2.jpg',
+    lessons: 35,
+    students: 1876
+  },
+  {
+    id: '6',
+    title: 'Figma: от идеи до прототипа',
+    description: 'Профессиональная работа в Figma, создание дизайн-систем и прототипов',
+    category: 'Дизайн',
+    level: 'Средний',
+    duration: '5 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0283e56f-0b79-40cc-8c0c-e223ad74a8a2.jpg',
+    lessons: 32,
+    students: 945
+  },
+  {
+    id: '7',
+    title: 'Backend разработка на Node.js',
+    description: 'REST API, базы данных, авторизация и деплой серверных приложений',
+    category: 'Программирование',
+    level: 'Средний',
+    duration: '10 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
+    lessons: 52,
+    students: 1342
+  },
+  {
+    id: '8',
+    title: 'Мобильная разработка на Flutter',
+    description: 'Создание кроссплатформенных приложений для iOS и Android',
+    category: 'Мобильная разработка',
+    level: 'Средний',
+    duration: '14 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
+    lessons: 74,
+    students: 892
+  },
+  {
+    id: '9',
+    title: '3D-моделирование в Blender',
+    description: 'От базовых форм до фотореалистичных сцен и анимации',
+    category: 'Дизайн',
+    level: 'Начальный',
+    duration: '8 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0283e56f-0b79-40cc-8c0c-e223ad74a8a2.jpg',
+    lessons: 45,
+    students: 678
+  },
+  {
+    id: '10',
+    title: 'Кибербезопасность: основы',
+    description: 'Защита данных, этичный хакинг и основы информационной безопасности',
+    category: 'Безопасность',
+    level: 'Средний',
+    duration: '9 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
+    lessons: 48,
+    students: 1567
+  },
+  {
+    id: '11',
+    title: 'Видеомонтаж в DaVinci Resolve',
+    description: 'Профессиональный монтаж, цветокоррекция и создание эффектов',
+    category: 'Видеопродакшн',
+    level: 'Начальный',
+    duration: '7 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0283e56f-0b79-40cc-8c0c-e223ad74a8a2.jpg',
+    lessons: 38,
+    students: 1123
+  },
+  {
+    id: '12',
+    title: 'DevOps и CI/CD практики',
+    description: 'Docker, Kubernetes, автоматизация развертывания и мониторинг',
+    category: 'DevOps',
+    level: 'Продвинутый',
+    duration: '11 недель',
+    image: 'https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/0fa2a17f-7b40-4797-8e71-b7fa36c5fe61.jpg',
+    lessons: 58,
+    students: 734
   }
 ];
 
