@@ -316,6 +316,39 @@ const Index = () => {
 
             <section className="space-y-6">
               <div className="text-center space-y-3">
+                <h2 className="text-4xl font-bold">Отзывы студентов</h2>
+                <p className="text-muted-foreground text-lg">Что говорят наши выпускники</p>
+              </div>
+              
+              <Card className="border-2 max-w-3xl mx-auto animate-slide-up">
+                <CardContent className="pt-6">
+                  <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                    <img 
+                      src="https://cdn.poehali.dev/projects/74d0a78e-663c-4131-924d-bc09dd9213df/files/2758bb89-e252-48b4-9fae-cc07b8cd4d39.jpg"
+                      alt="Алексей Петров"
+                      className="w-24 h-24 rounded-full object-cover shadow-lg"
+                    />
+                    <div className="flex-1 space-y-4 text-center md:text-left">
+                      <div className="flex gap-1 justify-center md:justify-start">
+                        {[...Array(5)].map((_, i) => (
+                          <Icon key={i} name="Star" className="text-yellow-500 fill-yellow-500" size={20} />
+                        ))}
+                      </div>
+                      <p className="text-lg text-muted-foreground italic">
+                        "Прошел курс по веб-разработке — невероятно полезный материал! Преподаватели объясняют сложные темы простым языком, а практические задания помогли закрепить знания. За 2 месяца я создал свое первое веб-приложение!"
+                      </p>
+                      <div>
+                        <p className="font-bold text-lg">Алексей Петров</p>
+                        <p className="text-sm text-muted-foreground">Frontend-разработчик, выпускник курса "Основы веб-разработки"</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </section>
+
+            <section className="space-y-6">
+              <div className="text-center space-y-3">
                 <h2 className="text-4xl font-bold">Популярные курсы</h2>
                 <p className="text-muted-foreground text-lg">Выберите направление и начните учиться прямо сейчас</p>
               </div>
